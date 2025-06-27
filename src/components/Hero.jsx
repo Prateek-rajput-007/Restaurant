@@ -2,7 +2,7 @@ import React from 'react';
 
 function Hero() {
   return (
-    <section className="relative flex min-h-[700px] h-[70vh] flex-1 flex-col justify-end gap-8 p-8 sm:p-10 lg:p-12 lg:pb-20 bg-white rounded-4xl overflow-hidden">
+    <section className="relative flex min-h-[700px] h-[70vh] flex-1 flex-col justify-center gap-8 p-8 sm:p-10 lg:p-12 lg:pb-20 bg-white rounded-4xl overflow-hidden">
       {/* Restaurant Image */}
       <img
         src="https://static-content.owner.com/funnel/images/c6d426ad-c841-441d-9e82-98fa6354c6fe?v=4558772693&w=3840&q=80&auto=format"
@@ -10,11 +10,11 @@ function Hero() {
         className="absolute inset-0 w-[calc(100%-2rem)] h-[calc(100%-2rem)] mx-4 my-4 object-cover opacity-100 pointer-events-none select-none rounded-4xl"
         style={{ zIndex: 0, filter: 'brightness(0.6)' }}
       />
-      <div className="relative bg-transparent max-w-3xl z-10">
+      <div className="relative bg-transparent max-w-3xl z-10 mt-60"> 
         <div className="flex flex-col gap-6 text-left">
           <h1 className="text-white font-sans text-base md:text-lg" aria-labelledby="subtitle">
             <span
-              className="font-sans text-sm md:text-base lg:text-lg border-l-4 pl-4 border-orange-400"
+              className="font-sans text-sm md:text-base lg:text-lg border-l-4 pl-4 border-white-400"
               id="subtitle"
             >
               Best Indian Food in Philadelphia, PA
@@ -28,7 +28,7 @@ function Hero() {
           </p>
         </div>
       </div>
-      <div className="relative flex flex-col gap-4 sm:flex-row z-10">
+      <div className="relative flex flex-col gap-2 sm:flex-row z-10 mt-1"> 
         <a
           className="group relative flex items-center text-base font-sans rounded-lg transition-all ease-in-out bg-orange-500 text-white min-h-12 py-3 px-5 justify-center hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400 w-full sm:w-auto"
           aria-label="Order Online"
