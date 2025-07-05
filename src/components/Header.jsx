@@ -58,7 +58,6 @@ function Header() {
               </a>
             ))}
           </nav>
-          {/* Center: Logo (shifted a bit left with mx-2 instead of mx-8) */}
           <a href="/" className="flex items-center h-18 shrink-0 mx-0">
             <img
               className="h-full object-contain"
